@@ -1,0 +1,85 @@
+/* Donation Page Styles */
+
+#donation {
+    padding: 40px;
+    background-color: #ffffff; /* White background for the donation section */
+    border-radius: 8px;
+    margin: 20px auto; /* Centering the donation section */
+    max-width: 600px; /* Maximum width for the donation form */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted effect */
+}
+
+h2 {
+    text-align: center; /* Centered heading */
+    color: #e94e77; /* Retro pink */
+}
+
+p {
+    text-align: center; /* Centered paragraph text */
+    margin-bottom: 20px; /* Space below paragraph */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Space between form groups */
+}
+
+.form-group label {
+    display: block; /* Labels on a new line */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold text for labels */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Full width for inputs and textareas */
+    padding: 10px; /* Inner padding for inputs */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1); /* Inner shadow for depth */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #e94e77; /* Pink border on focus */
+    outline: none; /* Remove default outline */
+}
+
+.donate-btn {
+    background-color: #e94e77; /* Retro pink */
+    color: white; /* White text */
+    padding: 12px; /* Inner padding */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    width: 100%; /* Full width */
+    font-size: 16px; /* Larger text for button */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.donate-btn:hover {
+    background-color: #d64266; /* Darker pink on hover */
+}
+
+#donation-info {
+    margin-top: 20px; /* Space above donation info */
+    background-color: #f9f9f9; /* Light gray background for the info section */
+    padding: 15px; /* Inner padding */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Centered text */
+}
+
+#donation-info h3 {
+    color: #e94e77; /* Retro pink for headings */
+    margin-bottom: 10px; /* Space below headings */
+}
+
+footer {
+    text-align: center; /* Centered footer text */
+    padding: 20px;
+    background-color: #333; /* Dark background */
+    color: white; /* White text */
+    position: relative;
+    bottom: 0;
+    width: 100%; /* Full width footer */
+}

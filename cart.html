@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Retro Revival</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Main stylesheet -->
+    <link rel="stylesheet" href="cart.css"> <!-- Cart page specific styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Retro Revival</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#products">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="donation.html">Donation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="cart-container">
+        <h2>Your Cart</h2>
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Remove</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="tshirt.png" alt="Vintage T-shirt" class="cart-img"> Vintage T-shirt
+                    </td>
+                    <td>₹786</td>
+                    <td>
+                        <input type="number" value="1" class="quantity-input" min="1">
+                    </td>
+                    <td>
+                        <button class="remove-btn">Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="glass.png" alt="Retro Sunglasses" class="cart-img"> Retro Sunglasses
+                    </td>
+                    <td>₹1985</td>
+                    <td>
+                        <input type="number" value="1" class="quantity-input" min="1">
+                    </td>
+                    <td>
+                        <button class="remove-btn">Remove</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="jean.png" alt="Classic Jeans" class="cart-img"> Classic Jeans
+                    </td>
+                    <td>₹940</td>
+                    <td>
+                        <input type="number" value="1" class="quantity-input" min="1">
+                    </td>
+                    <td>
+                        <button class="remove-btn">Remove</button>
+                    </td>
+                </tr>
+                <!-- Add more products as needed -->
+            </tbody>
+        </table>
+
+        <div class="total-price">
+            <span>Total Price:</span> ₹3711 <!-- This will be calculated dynamically -->
+        </div>
+        <button class="checkout-btn">Proceed to Checkout</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Retro Revival</p>
+    </footer>
+
+    <script src="cart.js"></script> <!-- JavaScript for handling cart functionality -->
+</body>
+</html>
